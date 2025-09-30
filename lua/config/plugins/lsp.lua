@@ -40,28 +40,6 @@ return {
 				},
 			})
 
-			vim.lsp.enable("jsonnet_ls")
-			vim.lsp.config("jsonnet_ls", {
-				settings = {
-					ext_vars = {},
-					formatting = {
-						-- default values
-						Indent              = 2,
-						MaxBlankLines       = 2,
-						StringStyle         = 'single',
-						CommentStyle        = 'slash',
-						PrettyFieldNames    = true,
-						PadArrays           = false,
-						PadObjects          = true,
-						SortImports         = true,
-						UseImplicitPlus     = true,
-						StripEverything     = false,
-						StripComments       = false,
-						StripAllButComments = false,
-					},
-				},
-			})
-
 			vim.lsp.enable("gopls")
 			vim.lsp.config("gopls", {
 				settings = {
