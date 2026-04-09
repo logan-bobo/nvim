@@ -35,9 +35,3 @@ vim.keymap.set("n", "<Q-k>", "<cmd>cprev<CR>")
 
 -- Oil keymaps
 vim.keymap.set("n", "-", "<cmd>Oil<CR>")
-
-require("oil").setup({
-	view_options = {
-		show_hidden = true
-	}
-})
