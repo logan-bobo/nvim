@@ -6,9 +6,8 @@ return {
 				"lua_ls",
 				"rust_analyzer",
 				"gopls",
-				"ruff",
-				"ty",
 				"terraformls",
+				"pyright"
 			}
 		},
 
